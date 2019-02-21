@@ -1,3 +1,5 @@
 # ProyectoMate
 Repositorio para el proyecto de matemáticas.
-Aquí vamos a poner lo que hizo cada uno. 
+Aquí vamos a poner lo que hizo cada uno.  
+
+#Luna es un pendejo
