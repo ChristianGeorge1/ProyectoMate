@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interpolación.</title>
+</head>
+<body>
+    <div class="contenedor1">
+        <header>
+            <div class="logo">
+                <!--Aquí colocar el logo.-->
+            </div>
+            <nav class="navegacion">
+                <!--Aquí colocar el breve menú-->
+            </nav>
+        </header>
+    </div>
+    <main class="contenido-principal">
+        <section class="datos">
+            <h2>Calculadora de interpolación.</h2>
+            <form action="" id="form">
+                <div class="contenedor_x">
+                    <label for="x">X: </label>
+                    <input type="number" id="x">
+                </div>
+                <div class="contenedor_x0">
+                    <label for="x0">X<sub>0</sub>: </label>
+                    <input type="number" id="x0">
+                </div>
+                <div class="contenedor_fx0">
+                    <label for="f(x0)">F(X<sub>0</sub>)</label>
+                    <input type="number" id="fx0">
+                </div>
+                <div class="contenedor_x1">
+                    <label for="x1">X<sub>1</sub></label>
+                    <input type="number" id="x1">
+                </div>
+                <div class="contenedor_fx1">
+                    <label for="f(x1)">F(X<sub>1</sub>)</label>
+                    <input type="number" id="fx1">
+                </div>
+                <div class="contenedor_x2">
+                    <label for="x2">X<sub>2</sub></label>
+                    <input type="number" id="x2">
+                </div>
+                <div class="contenedor_fx2">
+                    <label for="f(x2)">F(X<sub>2</sub>)</label>
+                    <input type="number" id="fx2">
+                </div>
+            </form>    
+        </section>
+
+        <section class="botones">
+            <div class="btn_calcular">
+                <button type="button" id="calcular">Calcular</button>
+            </div>
+            <div class="btn_eliminar">
+                <button type="button" id="eliminar">Eliminar</button>
+            </div>
+        </section>
+        
+        <section class="resultado">
+            <p id="resultado"></p>
+        </section>
+    </main>
+</body>
+<script src="../js/index.js"></script>
+</html>
